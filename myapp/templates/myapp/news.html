@@ -1,0 +1,290 @@
+<!DOCTYPE HTML>
+{% load static %}
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="img/favicon.png" type="image/png">
+	<title>Новая Норма | Маркировка товаров</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="{% static 'myapp/css/bootstrap.css' %}">
+	<link rel="stylesheet" href="{% static 'myapp/vendors/linericon/style.css' %}">
+	<link rel="stylesheet" href="{% static 'myapp/css/font-awesome.min.css' %}">
+	<link rel="stylesheet" href="{% static 'myapp/vendors/owl-carousel/owl.carousel.min.css' %}">
+	<link rel="stylesheet" href="{% static 'myapp/css/magnific-popup.css' %}">
+	<link rel="stylesheet" href="{% static 'myapp/vendors/nice-select/css/nice-select.css' %}">
+	<link rel="stylesheet" href="{% static 'myapp/vendors/animate-css/animate.css' %}">
+	<link rel="stylesheet" href="{% static 'myapp/vendors/flaticon/flaticon.css' %}">
+	<!-- main css -->
+	<link rel="stylesheet" href="{% static "myapp/css/style.css" %}">
+	<link rel="stylesheet"  href="{% static "myapp/css/animations.css" %}">
+
+</head>
+
+<body>
+
+	<!--================Header Menu Area =================-->
+	<header class="header_area">
+            <div class="main_menu">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt="" style="width: 150px;"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                           <ul class="nav navbar-nav menu_nav justify-content-center">
+                            <li class="nav-item"><a class="nav-link " href="index.html">Главная</a></li>
+                              <li class="nav-item submenu dropdown">
+                                 <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Возможности</a>
+    <div class="dropdown-menu dropdown-menu-left" aria-labelledby="servicesDropdown">
+     
+     <div class="d-md-flex align-items-start justify-content-start">
+     	   <div>   
+       <div class="dropdown-header"></div>
+       <a class="dropdown-item" href="otchetnost.html"><img src="menuimg/icon1.jpg" style="width:70px; padding-right:15px;">Отчетность через интернет</a>
+       <a class="dropdown-item" href="#"><img src="{% static 'myapp/menuimg/icon4.jpg' %}" style="width:70px; padding-right:15px;">ОФД и онлайн кассы</a>
+       <a class="dropdown-item" href="#"><img src="{% static 'myapp/menuimg/icon2.jpg' %}" style="width:70px; padding-right:15px;">Все о компании владельца</a>
+       <a class="dropdown-item" href="#"><img src="{% static 'myapp/menuimg/icon0.jpg' %}" style="width:70px; padding-right:15px;">Электронный докуметооборот</a>
+       <a class="dropdown-item" href="#"><img src="{% static 'myapp/menuimg/icon5.jpg' %}" style="width:70px; padding-right:15px;">Все для удаленной работы</a>
+       <a class="dropdown-item" href="#"><img src="{% static 'myapp/menuimg/icon7.jpg' %}" style="width:70px; padding-right:15px;">Для салонов и сферы услуг</a>
+      </div>
+      <div>   
+       <div class="dropdown-header"></div>
+       <a class="dropdown-item" href="accounting.html"><img src="{% static 'myapp/menuimg/icon11.jpg' %}" style="width:70px; padding-right:15px;">Бухгалтерия и учет</a>
+       <a class="dropdown-item" href="marking.html"><img src="{% static 'myapp/menuimg/icon20.jpg' %}" style="width:70px; padding-right:15px;">Маркировка товаров</a>
+       <a class="dropdown-item" href="#"><img src="{% static 'myapp/menuimg/icon3.jpg' %}" style="width:70px; padding-right:15px;">Поиск и анализ закупок</a>
+       <a class="dropdown-item" href="#"><img src="{% static 'myapp/menuimg/icon15.jpg' %}" style="width:70px; padding-right:15px;"><p style="font-size: 15px; display: inline;position: absolute; margin-top: 10px;">Управление<br>бизнес-процессами</p></a>
+       <a class="dropdown-item" href="#"><img src="{% static 'myapp/menuimg/icon16.jpg' %}" style="width: 70px; padding-right:15px;">CRM для активных продаж</a>
+       <a class="dropdown-item" href="#"><img src="{% static 'myapp/menuimg/icon21.jpg' %}" style="width:70px; padding-right:15px;">Видео-куммуникации</a>
+      </div>
+      <div>
+       <div class="dropdown-header"></div>
+       <a class="dropdown-item" href="staff.html"><img src="{% static 'myapp/menuimg/icon12.jpg' %}" style="width:70px;padding-right:15px;">Управление персоналом</a>
+       <a class="dropdown-item" href="#"><img src="{% static 'myapp/menuimg/icon5.jpg' %}" style="width:70px; padding-right:15px;">Для магазинов и аптек</a>
+       <a class="dropdown-item" href="#"><img src="{% static 'myapp/menuimg/icon14.jpg' %}" style="width:70px; padding-right:15px;">Электронная подпись</a>
+       <a class="dropdown-item" href="#"><img src="{% static 'myapp/menuimg/icon8.jpg' %}" style="width:70px; padding-right:15px;">Заказы и поставки (EDI)</a>
+       <a class="dropdown-item" href="#"><img src="{% static 'myapp/menuimg/icon18.jpg' %}" style="width:70px; padding-right:15px;">Облачная телефония</a>
+       <a class="dropdown-item" href="#"><img src="{% static 'myapp/menuimg/icon22.jpg' %}" style="width:70px; padding-right:15px;">Видеонаблюдение</a>
+      </div>
+      <div>
+      	  <div>
+       <div class="dropdown-header"></div>
+       <a class="dropdown-item" href="time_management.html"><img src="{% static 'myapp/menuimg/icon13.jpg' %}" style="width:70px; padding-right:15px;"><p style="display: inline;">Учет и контроль рабочего времени</p></a>
+       <a class="dropdown-item" href="#"><img src="{% static 'myapp/menuimg/icon6.jpg' %}" style="width:70px; padding-right:15px;">Для ресторанов, кафе и столовых</a>
+       <a class="dropdown-item" href="#"><img src="{% static 'myapp/menuimg/icon17.jpg' %}" style="width:70px; padding-right:15px;">Мобильные сотрудники</a>
+       <a class="dropdown-item" href="#"><img src="{% static 'myapp/menuimg/icon19.jpg' %}" style="width:70px; padding-right:15px;">Торговля, закупками и складской учет</a>
+       <a class="dropdown-item" href="#"><img src="{% static 'myapp/menuimg/icon10.jpg' %}" style="width:70px; padding-right:15px;">Корпоративная социальная сеть</a>
+       <a class="dropdown-item" href="#"><img src="{% static 'myapp/menuimg/icon23.jpg' %}" style="width:70px; padding-right:15px;">Корпоративный удостоверяющий центр</a>
+      </div>
+
+
+     </div>
+    </div>
+   </li>
+                           
+                            <li class="nav-item"><a class="nav-link" href="gallery.html">Оборудование</a>
+                             <li class="nav-item"><a class="nav-link" href="http://www.edo.kg">ЭДО</a></li>
+                          <li class="nav-item"><a class="nav-link" href="#">Новости</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Контакты</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="nav-item"><a href="tel: +996 501 588 882" class="primary_btn">Позвонить</a></li>
+                        </ul>
+                        <ul>
+							<li  style=" list-style-type: none;"><a class=""  style="color: #7F7F7F" href="#">Рус</a></li>
+							<li style=" list-style-type: none;"><a class=""  style="color: #7F7F7F" href="#">Кырг</a></li>
+						</ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+
+        <section class="news">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+              <h1 style="margin-top: 100px; text-align: center;">Новости</h1>
+              <hr>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="col-lg-12">
+              <div class="lineDate">{{ news.date|date:'F' }} {{news.date.day}}, {{news.date|date:"l"}}</div>
+
+                <div class="time" style="margin-right: 10px;">{{news.date.time}}</div>
+                <div class="titlee" style="width: auto;">
+                  <a href="{% url 'news-list' %}">
+                      {{news.title}}
+                  </a>
+              </div>
+
+
+</div>
+
+
+
+            </div>
+
+
+            <div class="col-sm-12">
+                {% if news.image %}
+                    <img src={{ news.image.url }}>
+                {% endif %}
+              <div class="">
+          </div>
+            <div class="dd">
+                  <p class="sa">{{ news.description|linebreaks }}</p>
+            </div>
+          
+<div class="col-lg-12" style="padding-left: 0">
+              <div class="mainTitle">МАТЕРИАЛЫ ПО ТЕМЕ</div>
+                <br>
+                {% for news2 in page_obj %}
+                    {% if news2.title !=  news.title %}
+                        <div class="onee">
+                        <div class="titlee" style="width: auto;">
+                            <a href="{% url 'news-info' news2.id %}">{{news2.title}}</a>
+                        </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+
+    <nav aria-label="Paginator" class="paginator">
+    <ul class="pagination pg-blue justify-content-center">
+        {% if page_obj.has_previous %}
+        <li class="page-item"><a href="?page=1" class="page-link">В начало</a></li>
+        <li class="page-item"><a href="?page={{ page_obj.previous_page_number }}" class="page-link">Назад</a></li>
+        {% endif %}
+        <li class="page-item"><a class="page-link">{{ page_obj.number }}</a></li>
+        {% if page_obj.has_next %}
+        <li class="page-item"><a href="?page={{ page_obj.next_page_number }}" class="page-link">Вперед</a></li>
+        <li class="page-item"><a href="?page={{ page_obj.paginator.num_pages }}" class="page-link">В конец</a></li>
+        {% endif %}
+    </ul>
+</nav>
+        </section>
+
+
+          <footer class="footer_area section_gap_top">
+    <div class="container">
+      <div class="row footer_inner">
+        <div class="col-lg-3 col-sm-6">
+          <aside class="f_widget ab_widget">
+            <div class="f_title">
+              <h4>Новая Норма</h4>
+            </div>
+            <p>
+    Компания является интегратором и провайдером облачных сервисов для автоматизации процессов управления цепочками поставок и взаиморасчетов. Важным направлением работы компании является участие в строительстве цифровой ЭКО-системы.</p>
+          </aside>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <aside class="f_widget ab_widget">
+            <div class="f_title">
+              <h4 style="">Драйвера</h4>
+            </div>
+            <ul>
+              <li style=""><a href="drivers/drivers.rar" download>Штрих-Light</a></li><a href="#">
+                <li style=""><a href="#" download>Атол
+              </a></li>
+              <li style=""><a href="#" download>Альфа АЗС 2.8
+              </a></li>
+              <!-- <li><a href="#"></a>Founding Members</a></li>
+              <li><a href="#"></a>Case Studies</a></li>
+              <li><a href="#"></a>Product Updates</a></li> -->
+            </ul>
+          </aside>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <aside class="f_widget ab_widget">
+            <div class="f_title">
+              <h4 style="">Документация</h4>
+            </div>
+            <ul>
+              <li style=""><a href="index.html">Руководство пользователя</a></li><a href="#">
+                <li style=""><a href="gallery.html">Описание процессов
+</a></li>
+                <li style=""><a href="gallery.html"> Разрешение на обработку фискальных данных</a></li>
+                
+              <li style=""><a href="gallery.html">Договор на обработку фискальных данных</a></li>
+              <li style=""><a href="http://www.edo.kg">Условия поставки</a></li>
+              <li style=""><a href="contact.html">Условия гарантии</a></li>
+              <!-- <li><a href="#"></a>Resources</a></li> -->
+            </ul>
+          </aside>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <aside class="f_widget ab_widget">
+            <div class="f_title">
+              <h4 style="">Контакты</h4>
+            </div>
+            <ul>
+              <li style="font-size: 14px;"><a href="#">Адрес:<br>
+Кыргызская Республика , 720082, <br>г.Бишкек, Кок-Жар, ул.Шоокум, 73</a></li>
+                            <li style="font-size: 18px;"><a href="tel:0312888882">+996 (312) 88-88-82</a></li>
+              <li style="font-size: 18px;"><a href="tel:+996501588882">+996 (501) 588-882</a></li>
+              <li style="font-size: 18px;"><a href="tel:+996550830532">+996 (550) 830-532</a></li>
+              <li style="font-size: 18px;"><a href="tel:+996708700700">+996 (708) 700-700</a></li>
+            
+
+                        <!-- <ul>
+              <li style="text-align: center;">Адрес:<br>Кыргызская Республика, 720082,
+г.Бишкек, ул.Шоокум 72.</a></li><a href="#">
+                <li style="text-align: center;">Номера телефонов:
+              </li>
+              <li><a href="#"></a>Cookie Information</a></li>
+              <li><a href="#"></a>Opt - Out</a></li>
+            </ul>
+ -->          </aside>
+        </div>
+      </div>
+      <div class="row single-footer-widget">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="copy_right_text">
+            <p ><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            <a href="#">Политика обработки персональных данных</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--================End Footer Area =================-->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="{% static 'myapp/js/mean.js' %}"></script>
+  <script src="{% static 'myapp/js/jquery-3.2.1.min.js' %}"></script>
+  <script src="{% static 'myapp/js/popper.js' %}"></script>
+  <script src="{% static 'myapp/js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'myapp/js/stellar.js' %}"></script>
+  <script src="{% static 'myapp/js/jquery.magnific-popup.min.js' %}"></script>
+  <script src="{% static 'myapp/vendors/nice-select/js/jquery.nice-select.min.js' %}"></script>
+  <script src="{% static 'myapp/vendors/isotope/imagesloaded.pkgd.min.js' %}"></script>
+  <script src="{% static 'myapp/vendors/isotope/isotope-min.js' %}"></script>
+  <script src="{% static 'myapp/vendors/owl-carousel/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'myapp/js/jquery.ajaxchimp.min.js' %}"></script>
+  <script src="{% static 'myapp/vendors/counter-up/jquery.waypoints.min.js' %}"></script>
+  <script src="{% static 'myapp/vendors/counter-up/jquery.counterup.min.js' %}"></script>
+  <script src="{% static 'myapp/js/mail-script.js' %}"></script>
+  <!--gmaps Js-->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+  <script src="{% static 'myapp/js/gmaps.min.js' %}"></script>
+  <script src="{% static 'myapp/js/theme.js' %}"></script>
+</body>
+
+</html>
